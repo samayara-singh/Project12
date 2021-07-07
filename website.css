@@ -34,7 +34,8 @@ body{
 } 
 h1{ 
     padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
+    float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFF5FF;
+    font-size: 20px;
 }
