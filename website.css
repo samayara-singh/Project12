@@ -1,0 +1,40 @@
+.topnav{
+    background-color: #010a0a;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: black;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topnav a:hover{
+    background-color: #FFFFFF;
+    color:rgba(0, 3, 8, 0.933);
+}
+.topnav a.active{
+    background-color: #fff5ffe1;
+    color: rgb(1, 11, 19);
+}
+body{
+    margin: 0;
+    background-color:#FFF5FF;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+h1{ 
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
