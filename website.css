@@ -12,16 +12,19 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .topnav a:hover{
-    background-color: #FFFFFF;
+    background-color: #f7ffb0e1;
     color:rgba(0, 3, 8, 0.933);
 }
 .topnav a.active{
-    background-color: #fff5ffe1;
+    background-color: #f7ffb0e1;
     color: rgb(1, 11, 19);
 }
 body{
     margin: 0;
-    background-color:#FFF5FF;
+    background-image: url(https://wallpapercave.com/wp/wp2654303.jpg);
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 form button{
     float: right;
@@ -49,5 +52,23 @@ h1{
     color: #FFF5FF;
     font-size: 21px;
 }
-
-
+.accordion {
+    background-color: rgba(251, 252, 248, 0.384);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: auto;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .active, .accordion:hover {
+    background-color: rgb(41, 40, 40);
+    color: #FFF5FF;
+  }
+  button{
+      margin-top: 20px;
+  }
